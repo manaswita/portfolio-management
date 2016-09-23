@@ -1,7 +1,7 @@
 {
-    "name": "mean-stack-registration-login-example",
+    "name": "portfolio-management",
     "version": "1.0.0",
-    "description": "MEAN Stack User Registration and Login Example Application",
+    "description": "Portfolio Management Application",
     "repository": {
         "type": "git",
         "url": "https://github.com/cornflourblue/mean-stack-registration-login-example.git"
