@@ -4,7 +4,7 @@
     "description": "Portfolio Management Application",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/mean-stack-registration-login-example.git"
+        "url": "https://github.com/manaswita/portfolio-management.git"
     },
     "dependencies": {
         "bcryptjs": "^2.1.0",
