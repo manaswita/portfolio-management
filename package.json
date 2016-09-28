@@ -6,6 +6,9 @@
     "scripts": {
       "start": "node server.js"
     },
+    "engines": {
+      "node": "5.9.1"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/manaswita/portfolio-management.git"

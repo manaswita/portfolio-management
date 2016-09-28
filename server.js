@@ -5,6 +5,7 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var expressJwt = require('express-jwt');
 var config = require('config.json');
+app.set('port', (process.env.PORT || 5000));
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
@@ -27,7 +28,10 @@ app.get('/', function (req, res) {
 });
 
 // start server
-var server = app.listen(3000, function () {
-  console.log(server.address());
-    console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
+// var server = app.listen(3000, function () {
+//   console.log(server.address());
+//     console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
+// });
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
