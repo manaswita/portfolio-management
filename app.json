@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio Management",
+  "description": "Portfolio Management",
+  "repository": "https://github.com/manaswita/portfolio-management.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
