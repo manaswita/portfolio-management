@@ -1,7 +1,14 @@
 {
     "name": "portfolio-management",
     "version": "1.0.0",
-    "description": "Portfolio Management",
+    "description": "Portfolio Management Application",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "engines": {
+      "node": "5.9.1"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/manaswita/portfolio-management.git"
